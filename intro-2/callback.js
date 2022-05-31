@@ -46,7 +46,7 @@ function displaySum({
   return `hasil ${type} ${nilai1} ${operator} ${nilai2} = ${handler(
     nilai1,
     nilai2,
-    displayZero, // ini function 
+    displayZero, // ini function
     displayMinus // ini function
   )}`;
 }
@@ -58,6 +58,17 @@ console.log(
     nilai1: 10,
     handler: pengurangan,
     type: "pengurangan",
+    nilai2: 11,
+    displayZero: zero,
+    displayMinus: minus,
+  })
+);
+console.log(
+  displaySum({
+    operator: "+",
+    nilai1: 10,
+    handler: penjumlahan,
+    type: "penjumlahan",
     nilai2: 11,
     displayZero: zero,
     displayMinus: minus,
