@@ -1,6 +1,6 @@
 const biodata = {
-  firstName: "Bilkis", // Property
-  lastName: "Ismail", // Property
+  firstName: "ridho", // Property
+  lastName: "mujizat", // Property
   // Method
   //   getFullName: function () {
   //     console.log(this);
